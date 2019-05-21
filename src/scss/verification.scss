@@ -1,0 +1,54 @@
+.verification-status {
+  .root {
+    padding: 0 40px 20px;
+
+    .content {
+      line-height: 1.4;
+    }
+
+    .header {
+      position: relative;
+
+      &:before {
+        content: "•";
+        position: absolute;
+        left: -20px;
+        top: 7px;
+        font-size: 60px;
+      }
+    }
+
+    .content {
+      color: #7F7F7F;
+    }
+  }
+
+  .identity-process {
+    .info-tooltip {
+      margin-bottom: 30px;
+      color: #7F7F7F;
+    }
+
+    .header {
+      &:before {
+        color: #FD9739;
+      }
+    }
+  }
+
+  .identity-success {
+    .header {
+      &:before {
+        color: #59ED72;
+      }
+    }
+  }
+
+  .identity-failed {
+    .header {
+      &:before {
+        color: #FE2121;
+      }
+    }
+  }
+}

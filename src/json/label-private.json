@@ -1,0 +1,14 @@
+{
+  "description_of_business": "Description of business",
+  "economic_activity": "Type of economic activity",
+  "source_of_funds": "Source of funds",
+  "main_partners": "Main partners (incl. countries)",
+  "usual_payment_methods": "Usual payment methods",
+  "politically_exposed": "Politically exposed person (PEP) or affiliated to PEP",
+  "existing_client_accounts": "Existing Client accounts",
+  "purpose_account_opening": "Purpose of account opening, description of expected transactions",
+  "annual_turnover": "Expected annual turnover",
+  "documents": "Passport and documents confirming full name, identification number, date and place of birth, current address, source of funds in English or Estonian languages",
+  "applicant_status": "Applicant's status",
+  "document_confirm" : "Document confirming representation rights, its issuing date and issuer in English or Estonian languages"
+}

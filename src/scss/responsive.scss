@@ -1,0 +1,101 @@
+@media screen and (max-width: 992px) {
+  .side-bar-block {
+    flex-basis: 50% !important;
+    order: 1;
+  }
+  .board-header {
+    flex-wrap: wrap;
+  }
+  .logo-container {
+    flex-basis: 50% !important;
+    order: 2;
+  }
+  .verification-block {
+    order: 3;
+    margin-top: 15px;
+    button {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .settings-button-block {
+    display: none;
+  }
+  .side-bar {
+    display: none !important;
+  }
+  .mobile-menu {
+    display: block !important;
+  }
+  .dashboard {
+    margin-bottom: 50px;
+  }
+  .make-deposit {
+    width: 100%;
+  }
+  .flex-row {
+    .el-col {
+      margin-bottom: 20px;
+    }
+    .el-col:last-child {
+      margin-bottom: 0;
+    }
+  }
+  .el-main,
+  .auth-main,
+  .el-header {
+    padding: 15px !important;
+  }
+  .deposit-block {
+    .deposit-container {
+      flex-wrap: wrap;
+    }
+    .currency-list {
+      margin-bottom: 15px;
+      width: 100% !important;
+      .currency-select {
+        .el-radio-group {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 524px) {
+  .board-header {
+    .logo-container .el-dropdown-link .logo ~ div {
+      display: none;
+    }
+  }
+  .balance {
+    .balance-button {
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 0;
+    }
+    .balance-list {
+      .account {
+        width: 100%;
+        margin-right: 0;
+        white-space: normal;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .dashboard-header,
+  .el-main,
+  .el-header,
+  .auth-main {
+    padding: 10px !important;
+  }
+  .balance {
+    .make-deposit {
+      width: 100%;
+    }
+  }
+}
